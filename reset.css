@@ -1,0 +1,40 @@
+/* ==== RESET MODERNO  ==== */
+
+/* Este reset CSS elimina márgenes y paddings por defecto, normaliza el box-sizing, mejora la legibilidad de textos y enlaces, y elimina estilos de listas para una base visual consistente. */
+* {
+    box-sizing: border-box;
+    position: relative;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-wrap: balance;
+}
+
+ul,
+ol,
+li {
+        list-style: none;
+        
+}
+
+a {
+        color: inherit;
+        text-decoration: none;
+}
+
+p {
+    text-wrap: pretty;
+}
+img{
+    width: 100%;
+}
